@@ -27,7 +27,8 @@
 
 .imgBox {
   width: 40%;
-  
+  box-shadow: 1px 1px 12px 1px #635d54fb;
+
 }
 
 .imgBox img {
