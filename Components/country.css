@@ -27,10 +27,12 @@
 
 .imgBox {
   width: 40%;
+  
 }
 
 .imgBox img {
   width: 100%;
+  overflow: hidden;
   object-fit: cover;
   
 }

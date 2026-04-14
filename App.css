@@ -3,9 +3,9 @@
 }
 
 body {
-  --background-color: white;
+  --background-color: rgba(156, 154, 114, 0.507);
   --text-color: black;
-  --elements-color: white;
+  --elements-color: rgba(255, 255, 255, 0.973);
   margin: 0;
   font-family: Nunito, sans-serif;
 }
@@ -21,7 +21,7 @@ main, header {
   --elements-color: hsl(209, 23%, 22%);
 }
 
-main {
+main { 
   padding: 24px;
   min-height: calc(100vh - 72px);
 }
@@ -34,7 +34,8 @@ a {
 .header-container {
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
   padding-inline: 24px;
-  background-color: var(--elements-color);
+  background-color: var(--background-color);
+
   position: sticky;
   top: 0;
   z-index: 1;
@@ -78,11 +79,13 @@ a {
 
 .imgbox {
   height: 150px;
+  border-radius: 20px;
 }
 
 .imgbox img {
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .country-card:hover {
